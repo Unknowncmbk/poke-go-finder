@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A003A9311D44312300C2F872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A003A9301D44312300C2F872 /* main.m */; };
+		A003A9341D44312300C2F872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A003A9331D44312300C2F872 /* AppDelegate.m */; };
+		A003A9371D44312300C2F872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A003A9361D44312300C2F872 /* ViewController.m */; };
+		A003A93A1D44312300C2F872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003A9381D44312300C2F872 /* Main.storyboard */; };
+		A003A93C1D44312300C2F872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A003A93B1D44312300C2F872 /* Assets.xcassets */; };
+		A003A93F1D44312300C2F872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003A93D1D44312300C2F872 /* LaunchScreen.storyboard */; };
+		A003A94A1D44312300C2F872 /* poke_go_finderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A003A9491D44312300C2F872 /* poke_go_finderTests.m */; };
+		A2C51BFF05B57C7B028D41FE /* libPods-poke-go-finderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A44FA6260F1FDE07E9CE829 /* libPods-poke-go-finderTests.a */; };
+		E5A33F5C5BFEBCF13777F594 /* libPods-poke-go-finder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3F9DDE650AC9AA9493CCE3 /* libPods-poke-go-finder.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A003A9461D44312300C2F872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A003A9241D44312300C2F872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A003A92B1D44312300C2F872;
+			remoteInfo = "poke-go-finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28E1A400211DD7FDDE180FBD /* Pods-poke-go-finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poke-go-finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-poke-go-finder/Pods-poke-go-finder.release.xcconfig"; sourceTree = "<group>"; };
+		7A44FA6260F1FDE07E9CE829 /* libPods-poke-go-finderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-poke-go-finderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3F9DDE650AC9AA9493CCE3 /* libPods-poke-go-finder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-poke-go-finder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A003A92C1D44312300C2F872 /* poke-go-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poke-go-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A003A9301D44312300C2F872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A003A9321D44312300C2F872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A003A9331D44312300C2F872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A003A9351D44312300C2F872 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A003A9361D44312300C2F872 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A003A9391D44312300C2F872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A003A93B1D44312300C2F872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A003A93E1D44312300C2F872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A003A9401D44312300C2F872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A003A9451D44312300C2F872 /* poke-go-finderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poke-go-finderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A003A9491D44312300C2F872 /* poke_go_finderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = poke_go_finderTests.m; sourceTree = "<group>"; };
+		A003A94B1D44312300C2F872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49D76951CBB4D1591CAF673 /* Pods-poke-go-finderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poke-go-finderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-poke-go-finderTests/Pods-poke-go-finderTests.release.xcconfig"; sourceTree = "<group>"; };
+		C42FB38E3A73B6222B50123C /* Pods-poke-go-finderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poke-go-finderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-poke-go-finderTests/Pods-poke-go-finderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAE2BD1E7D3844BFD7589658 /* Pods-poke-go-finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poke-go-finder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-poke-go-finder/Pods-poke-go-finder.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A003A9291D44312300C2F872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A33F5C5BFEBCF13777F594 /* libPods-poke-go-finder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A003A9421D44312300C2F872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C51BFF05B57C7B028D41FE /* libPods-poke-go-finderTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05428495FCD9233D2BDD6BF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAE2BD1E7D3844BFD7589658 /* Pods-poke-go-finder.debug.xcconfig */,
+				28E1A400211DD7FDDE180FBD /* Pods-poke-go-finder.release.xcconfig */,
+				C42FB38E3A73B6222B50123C /* Pods-poke-go-finderTests.debug.xcconfig */,
+				A49D76951CBB4D1591CAF673 /* Pods-poke-go-finderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A003A9231D44312300C2F872 = {
+			isa = PBXGroup;
+			children = (
+				A003A92E1D44312300C2F872 /* poke-go-finder */,
+				A003A9481D44312300C2F872 /* poke-go-finderTests */,
+				A003A92D1D44312300C2F872 /* Products */,
+				05428495FCD9233D2BDD6BF0 /* Pods */,
+				B98B1116EA81461873E07CC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A003A92D1D44312300C2F872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A003A92C1D44312300C2F872 /* poke-go-finder.app */,
+				A003A9451D44312300C2F872 /* poke-go-finderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A003A92E1D44312300C2F872 /* poke-go-finder */ = {
+			isa = PBXGroup;
+			children = (
+				A003A9321D44312300C2F872 /* AppDelegate.h */,
+				A003A9331D44312300C2F872 /* AppDelegate.m */,
+				A003A9351D44312300C2F872 /* ViewController.h */,
+				A003A9361D44312300C2F872 /* ViewController.m */,
+				A003A9381D44312300C2F872 /* Main.storyboard */,
+				A003A93B1D44312300C2F872 /* Assets.xcassets */,
+				A003A93D1D44312300C2F872 /* LaunchScreen.storyboard */,
+				A003A9401D44312300C2F872 /* Info.plist */,
+				A003A92F1D44312300C2F872 /* Supporting Files */,
+			);
+			path = "poke-go-finder";
+			sourceTree = "<group>";
+		};
+		A003A92F1D44312300C2F872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A003A9301D44312300C2F872 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A003A9481D44312300C2F872 /* poke-go-finderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A003A9491D44312300C2F872 /* poke_go_finderTests.m */,
+				A003A94B1D44312300C2F872 /* Info.plist */,
+			);
+			path = "poke-go-finderTests";
+			sourceTree = "<group>";
+		};
+		B98B1116EA81461873E07CC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E3F9DDE650AC9AA9493CCE3 /* libPods-poke-go-finder.a */,
+				7A44FA6260F1FDE07E9CE829 /* libPods-poke-go-finderTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A003A92B1D44312300C2F872 /* poke-go-finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A003A94E1D44312300C2F872 /* Build configuration list for PBXNativeTarget "poke-go-finder" */;
+			buildPhases = (
+				D775B6B70823E1905E9A7DBB /* [CP] Check Pods Manifest.lock */,
+				A003A9281D44312300C2F872 /* Sources */,
+				A003A9291D44312300C2F872 /* Frameworks */,
+				A003A92A1D44312300C2F872 /* Resources */,
+				685209625CA0BDB3BAEF85F8 /* [CP] Embed Pods Frameworks */,
+				4B678712F0F7A0D0E3F05646 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "poke-go-finder";
+			productName = "poke-go-finder";
+			productReference = A003A92C1D44312300C2F872 /* poke-go-finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A003A9441D44312300C2F872 /* poke-go-finderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A003A9511D44312300C2F872 /* Build configuration list for PBXNativeTarget "poke-go-finderTests" */;
+			buildPhases = (
+				C26B3B5015D51D1F3319CF14 /* [CP] Check Pods Manifest.lock */,
+				A003A9411D44312300C2F872 /* Sources */,
+				A003A9421D44312300C2F872 /* Frameworks */,
+				A003A9431D44312300C2F872 /* Resources */,
+				2225D6D76579402C5C9AE46B /* [CP] Embed Pods Frameworks */,
+				45618CC320477AD839931E22 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A003A9471D44312300C2F872 /* PBXTargetDependency */,
+			);
+			name = "poke-go-finderTests";
+			productName = "poke-go-finderTests";
+			productReference = A003A9451D44312300C2F872 /* poke-go-finderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A003A9241D44312300C2F872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Stephen Bahr";
+				TargetAttributes = {
+					A003A92B1D44312300C2F872 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TKD3X597JZ;
+					};
+					A003A9441D44312300C2F872 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A003A92B1D44312300C2F872;
+					};
+				};
+			};
+			buildConfigurationList = A003A9271D44312300C2F872 /* Build configuration list for PBXProject "poke-go-finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A003A9231D44312300C2F872;
+			productRefGroup = A003A92D1D44312300C2F872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A003A92B1D44312300C2F872 /* poke-go-finder */,
+				A003A9441D44312300C2F872 /* poke-go-finderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A003A92A1D44312300C2F872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A003A93F1D44312300C2F872 /* LaunchScreen.storyboard in Resources */,
+				A003A93C1D44312300C2F872 /* Assets.xcassets in Resources */,
+				A003A93A1D44312300C2F872 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A003A9431D44312300C2F872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2225D6D76579402C5C9AE46B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-poke-go-finderTests/Pods-poke-go-finderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45618CC320477AD839931E22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-poke-go-finderTests/Pods-poke-go-finderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B678712F0F7A0D0E3F05646 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-poke-go-finder/Pods-poke-go-finder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		685209625CA0BDB3BAEF85F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-poke-go-finder/Pods-poke-go-finder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C26B3B5015D51D1F3319CF14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D775B6B70823E1905E9A7DBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A003A9281D44312300C2F872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A003A9371D44312300C2F872 /* ViewController.m in Sources */,
+				A003A9341D44312300C2F872 /* AppDelegate.m in Sources */,
+				A003A9311D44312300C2F872 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A003A9411D44312300C2F872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A003A94A1D44312300C2F872 /* poke_go_finderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A003A9471D44312300C2F872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A003A92B1D44312300C2F872 /* poke-go-finder */;
+			targetProxy = A003A9461D44312300C2F872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A003A9381D44312300C2F872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A003A9391D44312300C2F872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A003A93D1D44312300C2F872 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A003A93E1D44312300C2F872 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A003A94C1D44312300C2F872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A003A94D1D44312300C2F872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A003A94F1D44312300C2F872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE2BD1E7D3844BFD7589658 /* Pods-poke-go-finder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "poke-go-finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sbahr.poke-go-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A003A9501D44312300C2F872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E1A400211DD7FDDE180FBD /* Pods-poke-go-finder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "poke-go-finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sbahr.poke-go-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A003A9521D44312300C2F872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42FB38E3A73B6222B50123C /* Pods-poke-go-finderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "poke-go-finderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sbahr.poke-go-finderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poke-go-finder.app/poke-go-finder";
+			};
+			name = Debug;
+		};
+		A003A9531D44312300C2F872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49D76951CBB4D1591CAF673 /* Pods-poke-go-finderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "poke-go-finderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sbahr.poke-go-finderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poke-go-finder.app/poke-go-finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A003A9271D44312300C2F872 /* Build configuration list for PBXProject "poke-go-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A003A94C1D44312300C2F872 /* Debug */,
+				A003A94D1D44312300C2F872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A003A94E1D44312300C2F872 /* Build configuration list for PBXNativeTarget "poke-go-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A003A94F1D44312300C2F872 /* Debug */,
+				A003A9501D44312300C2F872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A003A9511D44312300C2F872 /* Build configuration list for PBXNativeTarget "poke-go-finderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A003A9521D44312300C2F872 /* Debug */,
+				A003A9531D44312300C2F872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A003A9241D44312300C2F872 /* Project object */;
+}
